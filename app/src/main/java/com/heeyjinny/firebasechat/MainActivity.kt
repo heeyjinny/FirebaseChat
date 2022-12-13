@@ -21,8 +21,26 @@ import android.os.Bundle
 //item_msg_list : 채팅방화면 목록의 메시지
 
 //3
+//데이터 클래스 생성
+//데이터 클래스를 생성할 model패키지 추가
+//패키지명 우클릭 - New - Package - model
+//model패키지에 메시지, 룸, 유저 클래스 추가
 
+//4
+//User 클래스
+//회원가입과 로그인 화면에서
+//사용자 아이디, 비밀번호, 별명 입력받는 코드
 
+//5
+//Message 클래스
+//메시지를 주고받기 위해 사용되는 클래스
+//채팅방에서 채팅 목록을 보여주기 위한 코드
+//아이디, 메시지, 유저이름, 전송시간
+
+//6
+//Room 클래스
+//채팅방생성, 생성된 채팅방 목록에 보여주는 클래스
+//방 아이디, 방 이름
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
