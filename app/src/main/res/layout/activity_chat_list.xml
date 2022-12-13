@@ -8,6 +8,18 @@
     android:padding="16dp">
 
 <!--  채팅방 목록 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채팅방 목록"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCreate"
+        app:layout_constraintEnd_toStartOf="@+id/btnCreate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnCreate" />
+
+
     <Button
         android:id="@+id/btnCreate"
         android:layout_width="wrap_content"

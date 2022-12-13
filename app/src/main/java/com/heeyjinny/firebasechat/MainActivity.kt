@@ -50,8 +50,12 @@ import com.heeyjinny.firebasechat.model.User
 
 //7
 //로그인/회원가입 구현하기
-//액티비티 연결...
 //MainActivity.kt
+
+//12
+//채팅방 목록/방 만들기 기능 구현하기
+//ChatListActivity.kt
+
 class MainActivity : AppCompatActivity() {
 
     //뷰바인딩
@@ -153,6 +157,7 @@ class MainActivity : AppCompatActivity() {
                                 //9-7
                                 //유저 아이디와 별명을 전달하면서
                                 //채팅방 목록 들어가기...(밑에 생성)
+                                Toast.makeText(baseContext, "로그인 되었습니다.", Toast.LENGTH_SHORT).show()
                                 goChatroomList(it.id, it.name)
                             }else{
                                 //9-6-1
