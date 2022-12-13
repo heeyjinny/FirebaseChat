@@ -38,7 +38,7 @@ import com.heeyjinny.firebasechat.model.User
 //사용자 아이디, 비밀번호, 별명 입력받는 코드
 
 //5
-//Message 클래스
+//Messages 클래스
 //메시지를 주고받기 위해 사용되는 클래스
 //채팅방에서 채팅 목록을 보여주기 위한 코드
 //아이디, 메시지, 유저이름, 전송시간
@@ -55,6 +55,10 @@ import com.heeyjinny.firebasechat.model.User
 //12
 //채팅방 목록/방 만들기 기능 구현하기
 //ChatListActivity.kt
+
+//13
+//채팅방 구현
+//ChatRoomActivity.kt
 
 class MainActivity : AppCompatActivity() {
 
