@@ -19,6 +19,12 @@ import com.heeyjinny.firebasechat.model.User
 //패키지명 우클릭 - New - Activity - 채티방목록 및 화면 생성
 
 //2
+//데이터 클래스 생성
+//데이터 클래스를 생성할 model패키지 추가
+//패키지명 우클릭 - New - Package - model
+//model패키지에 메시지, 룸, 유저 클래스 추가
+
+//3
 //안드로이드 화면 만들기
 //로그인/회원가입, 채팅방목록, 채팅방, 채팅방 메시지 화면
 //activity_main.xml : 로그인/회원가입 화면
@@ -26,11 +32,6 @@ import com.heeyjinny.firebasechat.model.User
 //activity_chat_room : 채팅방 화면
 //item_msg_list : 채팅방화면 목록의 메시지
 
-//3
-//데이터 클래스 생성
-//데이터 클래스를 생성할 model패키지 추가
-//패키지명 우클릭 - New - Package - model
-//model패키지에 메시지, 룸, 유저 클래스 추가
 
 //4
 //User 클래스
