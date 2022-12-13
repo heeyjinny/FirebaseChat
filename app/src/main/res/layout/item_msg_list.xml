@@ -7,6 +7,7 @@
     android:layout_weight="10"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+<!--  채팅방 메시지 목록 아이템  -->
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"

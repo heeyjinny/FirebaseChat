@@ -7,6 +7,7 @@
     tools:context=".ChatListActivity"
     android:padding="16dp">
 
+<!--  채팅방 목록 -->
     <Button
         android:id="@+id/btnCreate"
         android:layout_width="wrap_content"
